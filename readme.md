@@ -1,5 +1,7 @@
 # Hoppscotch
 
+![Diagram](./hoppscotch.png)
+
 Note: All attached commands must be executed in the same folder where .env, hoppscotch.conf and docker-compose.yml are located.
 
 ## Configure Cloudflare
