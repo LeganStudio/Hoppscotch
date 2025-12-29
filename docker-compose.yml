@@ -59,6 +59,7 @@ services:
       - hoppscotch-data:/var/lib/postgresql/data
     networks:
       - hoppscotch-network
+    restart: unless-stopped
 
   migrate:
     image: hoppscotch/hoppscotch-backend
