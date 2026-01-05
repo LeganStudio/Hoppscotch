@@ -68,7 +68,7 @@ services:
       - .env
     networks:
       - hoppscotch-network
-    entrypoint: [ "sh", "-c", "pnpm dlx prisma migrate deploy" ]
+    entrypoint: [ "sh", "-c", "pnpm dlx prisma@6 migrate deploy" ]
     restart: "no"
     depends_on:
       - database
